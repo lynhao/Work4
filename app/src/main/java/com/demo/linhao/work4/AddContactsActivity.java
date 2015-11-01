@@ -27,6 +27,7 @@ public class AddContactsActivity extends Activity {
         danweiEditText = (EditText) findViewById(R.id.danwei);
         qqEditText = (EditText) findViewById(R.id.qq);
         addressEditText = (EditText) findViewById(R.id.address);
+
     }
 
     @Override

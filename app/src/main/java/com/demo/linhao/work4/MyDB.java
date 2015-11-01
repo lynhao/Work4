@@ -14,6 +14,7 @@ public class MyDB extends SQLiteOpenHelper {
     private static String DB_NAME = "My_DB.db";
     private static int DB_VERSION = 2;
     private SQLiteDatabase db;
+
     public MyDB(Context context) {
         super(context, DB_NAME,null,DB_VERSION);
         db=getWritableDatabase();
